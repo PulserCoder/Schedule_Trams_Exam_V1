@@ -57,3 +57,32 @@
 Главная страничка запущена
 127.0.0.1 - - [19/Jan/2023 12:45:30] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [19/Jan/2023 12:45:44] "GET /dasdasdadsa HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 12:52:53] "GET /api/posts HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 12:53:34] "GET /api/departure/Захарово HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 12:53:48] "GET /api/stations/Захарово HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 12:54:04] "GET /api/stations/%3Cstation%3E HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 12:54:22] "GET /api/stations/Захарово HTTP/1.1" 200 -
+Главная страничка запущена
+127.0.0.1 - - [19/Jan/2023 12:54:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 12:54:50] "GET /api/stations/Фрязево HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+Страничка расписания была запущена
+127.0.0.1 - - [19/Jan/2023 13:02:59] "GET /schedule HTTP/1.1" 200 -
+Главная страничка запущена
+127.0.0.1 - - [19/Jan/2023 13:03:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 13:03:21] "GET /api/stations/Захарово HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 13:03:44] "GET /api/stations/Петушки HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 13:04:03] "GET /api/departures HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jan/2023 13:04:33] "GET /api/stations/Петушки HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [19/Jan/2023 13:05:35] "GET /api/stations/Фрязево HTTP/1.1" 200 -

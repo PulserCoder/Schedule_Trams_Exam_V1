@@ -5,6 +5,7 @@ from datetime import datetime
 import logging
 
 app = Flask(__name__, template_folder='templates')
+app.config['JSON_AS_ASCII'] = False
 
 logger = logging.getLogger()
 file_handler = logging.FileHandler("log.logs")
@@ -51,12 +52,7 @@ def send_json_all_info():
     return jsonify(load_all_info())
 
 
-@app.route('/api/departures')
-def send_json_all_info():
-    return jsonify(load_all_info())
-
-
-@app.route('api/stations/<station>')
+@app.route('/api/stations/<station>')
 def send_info_by_station(station):
     return jsonify(load_info_by_station(station))
 
