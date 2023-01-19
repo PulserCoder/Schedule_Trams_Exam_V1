@@ -9,26 +9,18 @@
             integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
             crossorigin="anonymous"></script>
 
-    <title>Schedule Now</title>
+    <title>Schedule</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
+        <a class="navbar-brand" href="/">Главная</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">Главная</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/schedule">Расписание</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/station">Станции</a>
-                </li>
             </ul>
             <form class="d-flex" method="GET" action="/station">
                 <input class="form-control me-2" type="search" placeholder="Поиск по станциям" aria-label="Search" name="s">
@@ -38,8 +30,7 @@
     </div>
 </nav>
 
-<p class="text-sm-start"><h3>Расписание на ближайшие трамваи на {{data}}</h3></p>
-
+<p class="text-sm-start"><h4>Полное расписание</h4></p>
 <table class="table">
     <thead>
     <tr>
